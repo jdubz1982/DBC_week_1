@@ -1,11 +1,11 @@
-#James Wilson's Hobby Page
+#**James Wilson's Hobby Page**
 
-### Web links to learn more about my hobbies:
+### **Web links to learn more about my hobbies:**
 * **[Skiing](https://en.wikipedia.org/wiki/Skiing)**
 * **[Surfing](https://en.wikipedia.org/wiki/Surfing)**
 * **[Running](https://en.wikipedia.org/wiki/Running)**
 
-##### Code Section
+##### **Code Section**
     ruby
     hobbies = ["Skiiing", "Surfing", "Running"]
     count = 1
