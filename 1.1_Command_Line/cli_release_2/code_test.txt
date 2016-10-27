@@ -1,0 +1,9 @@
+code: This is a test to find the word code
+code: What does grep -r “code” . indicate? 
+code: grep searches any given files, selecting lines that match one or more
+code: patterns. In this case we are searching for code. 
+code: -r option recursively search subdirectories listed, in this case . which 
+code: indicates the current director. The -rl option will return just the file name. 
+code: I am still trying to wrap my head around recursively, but in this case it 
+code: refers to operating on a directory and its contents. Its recursive because 
+code: it is calling the command on itself (the directory) repeadetly. 
