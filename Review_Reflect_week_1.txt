@@ -52,7 +52,9 @@ Create Repository for New Project:
     - type git status to make sure your working tree is clean
     - Push your feature branch to GitHub using : git push origin <new feature branch>
     - On GitHub, submit a pull request on GitHub from the <new feature branch> to the master branch. 
+    - Check to see that the branch you are merging code into and the branch you are merging code from are correct. Then choose Create Pull Request.
     - If you have a team working on this repository, a team member should review the pull request and approve the changes by merging the pull request. If you are working alone on the repository, you can merge your own request. 
+    - Verify that the changes have been merged into the master branch and delete the feature branch to keep things cleaned up.
 
 Create Repository for Existing Project:
     - Navigate to your GitHub account and click the Repositories option, then click New
@@ -72,7 +74,9 @@ Create Repository for Existing Project:
     - type git status to make sure your working tree is clean
     - Push your feature branch to GitHub using : git push origin <new feature branch>
     - On GitHub, submit a pull request on GitHub from the <new feature branch> to the master branch. 
+    - Check to see that the pull request is the correct one and that the branch you are merging code into and the branch you are merging code from are correct. Then choose Create Pull Request.
     - If you have a team working on this repository, a team member should review the pull request and approve the changes by merging the pull request. If you are working alone on the repository, you can merge your own request. 
+    - Verify that the changes have been merged into the master branch and delete the feature branch to keep things cleaned up.
 
 In your own words, write instructions to fork, clone and update a repository.
     - Navigate to the correct repository you would like to fork on GitHub.
@@ -91,6 +95,19 @@ In your own words, write instructions to fork, clone and update a repository.
     - type git status to make sure your working tree is clean
     - Push your feature branch to GitHub using : git push origin <new feature branch>
     - On GitHub, submit a pull request on GitHub from the <new feature branch> to the master branch. 
+    - Check to see that the pull request is the correct one and that the branch you are merging code into and the branch you are merging code from are correct. Then choose Create Pull Request.
     - If you have a team working on this repository, a team member should review the pull request and approve the changes by merging the pull request. If you are working alone on the repository, you can merge your own request. 
+    - Verify that the changes have been merged into the master branch and delete the feature branch to keep things cleaned up. 
+    
 What is a pull request and how do you create and merge one?
+    - A pull request is a request that code you pushed up to GitHub from a feature branch on your local computer be merged into the master branch. 
+    - To create a pull request, navigate to the proper GitHub repository online and choose either Compare and Pull Request if available or Create New Pull Request option
+    - Check to see that the pull request is the correct one and that the branch you are merging code into and the branch you are merging code from are correct. Then choose Create Pull Request.
+    - Typically, you will be working on a team, so you will wait for a team member to review the changes and then merge them to the master branch. 
+    - If you are working alone on the repository, you can check that the code is correct and then you can merge your own request by selecting Merge Pull Request and then Confirm Merge. 
+    - Verify that the changes have been merged into the master branch and delete the feature branch to keep things cleaned up.
+
 Why are pull requests preferred when working with teams?
+    - Pull requests are preferred because they notify team members when a feature has been completed and it allows other team members to review, comment, and push follow-up commits on your code before it is merged into the master branch. 
+    - Each pull request gets its own unique page on GitHub and acts like a dedicated forum for discussing the proposed feature. The changes you made to the file, comments, and feedback on your code are easily viewable by you and other team members.
+    
