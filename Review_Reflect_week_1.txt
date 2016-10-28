@@ -6,7 +6,7 @@ In your own words, write what each of the following commands does:
 pwd - prints working directory. The current folder you are working in.
 ls - lists files in the working directory. ls with no options will only list   non-hidden files
 mv - used to move or rename files and directories 
-cd - used to navigate between folders 
+cd - used to navigate between folders
 touch - creates a file if the file does not exist. 
 mkdir - creates a directory 
 rm - removes a file or directory depending on what options you apply 
@@ -17,18 +17,16 @@ grep - searches text in a file for a specified pattern
 
 Git:
 What is version control and why do developers use it?
-    Version control is a tool that allows developers to view the entire history of revisions to one or more files and merge those revisions by different people. 
-    Developers use version control so they can save different versions of code, allow multiple people to work on a different feature of code without affecting the main source code and then giving them the ability to merge it all together. 
+    Version control is a tool that helps developers manage changes to source code over time. It allows you to track progress, review and revert changes, and create backups for your code. Developers use version control so they can save different versions of code, allow multiple people to work on different features of code simultaneously without affecting the main source code and then giving them the ability to merge it all together. 
 
 What is a commit? What are the best practices for commit messages?
-    A commit is snapshot in time or a save point of a project. A good commit message is detailed and states what was changed since the last commit.  
+    A commit is snapshot in time or a save point of a project. A good commit message is detailed and states what was changed since the last commit. Typically, it is standard to summarize the entire commit on the first line in less than 50 characters, leave a blank line, then add a detailed explanation of what has been changed.   
 
 What is a branch?
-    A branch is a separate line of development, basically a brand new working directory with its own project history. You can use multiple branches to work on different features of code. 
+    A branch is a separate line of development, basically a brand new working directory with its own project history. You can use multiple branches to work on different features of code. By developing code in branches, you can work on multiple features or changes simultaneously, but also keep the master branch free of questionable code.
 
 What are the 3 stages of a git change and how do you move a file from one stage to the other?
-    The three stages of a git change are untracked, modified, and staged. Untracked files are new files that are not being tracked. Modified files are tracked but they have been modified since the last commit. Staged files are those files ready to be committed. To move out of the untracked stage, you must git add the file and then commit. To move from modified to staged, you must add the file with git add. Once the files are staged, they are ready to be committed with a git commit and good commit message. 
-
+    The three stages of a git change are untracked, modified, and staged. Untracked files are new files that are not being tracked. Modified files are tracked but they have been modified since the last commit. Staged files are those files ready to be committed. To move out of the untracked stage, you must git add the file and then git commit with an initial commit message. To move from modified to staged, you must add the file with git add. Once the files are staged, they are ready to be committed with a git commit and good commit message. 
 
 GitHub:
 Write an explanation of and compare Git and GitHub to one another.
@@ -50,7 +48,7 @@ Create Repository for New Project:
     - type git add <file_name> to stage the files
     - type git commit -m "Good commit message" to commit the files
     - type git status to make sure your working tree is clean
-    - Push your feature branch to GitHub using : git push origin <new feature branch>
+    - Push your feature branch to GitHub using git push origin <new feature branch>
     - On GitHub, submit a pull request on GitHub from the <new feature branch> to the master branch. 
     - Check to see that the branch you are merging code into and the branch you are merging code from are correct. Then choose Create Pull Request.
     - If you have a team working on this repository, a team member should review the pull request and approve the changes by merging the pull request. If you are working alone on the repository, you can merge your own request. 
@@ -72,7 +70,7 @@ Create Repository for Existing Project:
     - type git add <file_name> to stage the files
     - type git commit -m "Good commit message" to commit the files
     - type git status to make sure your working tree is clean
-    - Push your feature branch to GitHub using : git push origin <new feature branch>
+    - Push your feature branch to GitHub using git push origin <new feature branch>
     - On GitHub, submit a pull request on GitHub from the <new feature branch> to the master branch. 
     - Check to see that the pull request is the correct one and that the branch you are merging code into and the branch you are merging code from are correct. Then choose Create Pull Request.
     - If you have a team working on this repository, a team member should review the pull request and approve the changes by merging the pull request. If you are working alone on the repository, you can merge your own request. 
@@ -93,7 +91,7 @@ In your own words, write instructions to fork, clone and update a repository.
     - type git add <file_name> to stage the files
     - type git commit -m "Good commit message" to commit the files
     - type git status to make sure your working tree is clean
-    - Push your feature branch to GitHub using : git push origin <new feature branch>
+    - Push your feature branch to GitHub using git push origin <new feature branch>
     - On GitHub, submit a pull request on GitHub from the <new feature branch> to the master branch. 
     - Check to see that the pull request is the correct one and that the branch you are merging code into and the branch you are merging code from are correct. Then choose Create Pull Request.
     - If you have a team working on this repository, a team member should review the pull request and approve the changes by merging the pull request. If you are working alone on the repository, you can merge your own request. 
@@ -101,13 +99,14 @@ In your own words, write instructions to fork, clone and update a repository.
     
 What is a pull request and how do you create and merge one?
     - A pull request is a request that code you pushed up to GitHub from a feature branch on your local computer be merged into the master branch. 
-    - To create a pull request, navigate to the proper GitHub repository online and choose either Compare and Pull Request if available or Create New Pull Request option
-    - Check to see that the pull request is the correct one and that the branch you are merging code into and the branch you are merging code from are correct. Then choose Create Pull Request.
+    - To create a pull request, once all your source code is committed on your local computer, push your feature branch to GitHub with git push origin <feature branch name>
+    - Navigate to the proper GitHub repository online and choose either Compare and Pull Request if available or Create New Pull Request option
+    - Check to see that the pull request is for the correct changes and that the branch you are merging code into and the branch you are merging code from are correct. Then choose Create Pull Request.
     - Typically, you will be working on a team, so you will wait for a team member to review the changes and then merge them to the master branch. 
     - If you are working alone on the repository, you can check that the code is correct and then you can merge your own request by selecting Merge Pull Request and then Confirm Merge. 
     - Verify that the changes have been merged into the master branch and delete the feature branch to keep things cleaned up.
 
 Why are pull requests preferred when working with teams?
-    - Pull requests are preferred because they notify team members when a feature has been completed and it allows other team members to review, comment, and push follow-up commits on your code before it is merged into the master branch. 
+    - Pull requests are preferred because they notify team members when a feature has been completed and it allows other team members to review, comment, and push follow-up commits on your code before it is merged into the master branch. Its like another set of eyes on your code before its merged into the master branch. 
     - Each pull request gets its own unique page on GitHub and acts like a dedicated forum for discussing the proposed feature. The changes you made to the file, comments, and feedback on your code are easily viewable by you and other team members.
     
